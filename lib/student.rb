@@ -22,5 +22,7 @@ def self.create_table
     name TEXT,
     grade TEXT
     )
+    
+  
 
 end
