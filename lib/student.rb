@@ -23,6 +23,10 @@ def self.create_table
     grade TEXT
     )
     
+  SQL
   
+  DB[:conn].execute(sql)
+end
+
 
 end
